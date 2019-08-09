@@ -1,0 +1,27 @@
+SFFS
+LR:
+baths exterior_walls restaurants nightlife property_tax insurance median_school during_recession property_age
+
+RF:
+beds sqft lot_size property_type restaurants active_life insurance median_school during_recession property_age
+
+SVM:
+baths property_type restaurants beauty_spas median_age insurance school_score
+
+GBM:
+sqft property_type exterior_walls property_tax insurance during_recession property_age school_score
+
+
+
+SFBS
+LR:
+baths sqft lot_size groceries beauty_spas active_life median_age college_grad property_tax two_and_two during_recession property_age school_score
+
+RF:
+beds baths sqft lot_size property_type exterior_walls basement restaurants groceries nightlife cafes shopping arts_entertainment beauty_spas active_life median_age property_tax insurance median_school two_and_two during_recession property_age school_score
+
+SVM:
+beds baths sqft property_type exterior_walls basement restaurants median_age college_grad property_tax insurance during_recession property_age school_score
+
+GBM:
+beds baths sqft lot_size property_type roof basement restaurants groceries nightlife cafes shopping arts_entertainment beauty_spas median_age married college_grad property_tax insurance median_school num_schools two_and_two during_recession property_age school_score
