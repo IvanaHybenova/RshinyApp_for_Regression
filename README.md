@@ -6,7 +6,7 @@ Repository contains material for R-Ladies Copenhagen Meet-up:April is Shiny (pra
 Rshiny app is designed to load any cleaned dataset (House_prices.csv is provided as an example), perform feature selection, 
 if needed, train and tune different algorithms, save the chosen one and do predictions on unseen data.
 
-Except Rshiny_Regression.R are provided for more R files, which contains functions for feature selection for different algorithms.
+Except Rshiny_Regression.R are provided more R files, which contains functions for feature selection for different algorithms.
 
 Steps:
 1. Download all the files.
